@@ -1,0 +1,19 @@
+apache-pom (10-2build1) quantal; urgency=low
+
+  * No-change rebuild with openjdk-7 as default-jdk.
+
+ -- James Page <james.page@ubuntu.com>  Fri, 18 May 2012 11:33:33 +0100
+
+apache-pom (10-2) unstable; urgency=low
+
+  * Only use maven_repo_helper and debhelper to install POM:
+    - Drop Build-Depends on cdbs and ant.
+  * Remove d/README.source.
+
+ -- Damien Raude-Morvan <drazzib@debian.org>  Sun, 04 Dec 2011 01:54:48 +0100
+
+apache-pom (10-1) unstable; urgency=low
+
+  * Initial release (Closes: #644558)
+
+ -- Damien Raude-Morvan <drazzib@debian.org>  Sun, 20 Nov 2011 20:33:02 +0100
